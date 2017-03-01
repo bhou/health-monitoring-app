@@ -1,0 +1,149 @@
+.datasheet-view {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9CDAD;
+}
+
+
+
+.logo {
+    margin: 0 0 0 10px;
+    color: #f4f4f4;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-name {
+    margin: 0 20px 0 20px;
+    color: #f4f4f4;
+}
+
+.logout-btn {
+    height: 30px;
+    width: 80px;
+    margin: 0 20px 0 0px;
+    font-size: 14px;
+}
+
+.view-sidebar {
+    background-color: #83AF9B;
+    width: 200px;
+}
+
+.view-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.view-content {
+    margin: 10px 10px 10px 10px;
+}
+
+.view-general-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.table-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    height: 100px;
+}
+.table-search input {
+    padding: 10px;
+    border: solid 5px #C8C8A9;
+    transition: border 0.3s;
+}
+.table-search  input:focus,
+.table-search  input.focus {
+    border: solid 5px #C8C8A9;
+}
+.table-search button {
+    height: 38px;
+    font-size: 16px;
+    width: 100px;
+}
+.table-search-criteria {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    color: #7d7d7d;
+}
+
+.chart-btn {
+    /*background-color: #FC9D9A !important;*/
+    width: 50px !important;
+}
+.chart-btn {
+    /*box-shadow: 0 3px #e33857 !important;*/
+}
+
+/*.chart-btn:hover,
+.chart-btn.hover {
+    background-color: #FC9D9A !important;
+}
+
+.chart-btn:active,
+.chart-btn.active {
+    background-color: #FC9D9A !important;
+    box-shadow: 0 3px #FE4365 !important;
+}*/
+
+.chart-btn > img {
+    width: 25px;
+    margin: 5px 0 0 0;
+}
+
+.table-search-zone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.table-page-zone {
+    align-items: center;
+    color: #7d7d7d;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+
+.prev-page {
+    width: 50px !important;
+}
+
+.next-page {
+    width: 50px !important;
+}
+
+.table-page-zone > span {
+    margin: 0 10px 0 10px;
+}
+
+.settings-temperature-unit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+.settings-temperature-unit > label {
+    color: #7d7d7d;
+    font-size: 16px;
+    margin: 0 10px 0 10px;
+}
+
+.temperature-unit-checkbox .react-toggle-track {
+    background-color: #83AF9B;
+}
+.temperature-unit-checkbox.react-toggle--checked .react-toggle-track {
+    background-color: #83AF9B;
+}

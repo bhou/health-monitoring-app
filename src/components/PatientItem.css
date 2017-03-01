@@ -1,0 +1,18 @@
+.patient-list-item {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   height: 50px;
+   margin: 5px 0 5px 0px;
+   color: #f4f4f4;
+}
+
+.patient-list-item > img {
+   width: 50px;
+   margin: 0 10px 0 0px;
+}
+
+.patient-list-item-selected {
+   background-color: #F9CDAD;
+   color: #7d7d7d;
+}

@@ -1,0 +1,31 @@
+.patient-info-section {
+    /*width: 250px;*/
+    max-width: 350px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #83AF9B;
+    color: #f4f4f4;
+}
+
+.patient-photo > img {
+    width: 100px;
+    margin: 10px;
+}
+
+.patient-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.patient-info-item {
+    font-size: 14px;
+}
+
+.patient-info-item > span {
+    float: left;
+    width: 100px;
+}

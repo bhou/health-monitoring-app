@@ -1,0 +1,42 @@
+.chart-view {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9CDAD;
+}
+
+.chart-view-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 50px 0;
+    width: 700px;
+    align-self: center;
+}
+
+.general-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.to-table-btn {
+    width: 50px !important;
+}
+
+.to-table-btn > img{
+    width: 24px !important;
+    margin: 5px 0 0 0;
+}
+
+.chart-section {
+    margin: 50px 0 50px 0;
+    background-color: #83AF9B;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    color: #f4f4f4;
+}
+
+.chart-area {
+    margin: 20px 20px 0 20px;
+}
