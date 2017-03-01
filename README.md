@@ -2,6 +2,8 @@
 
 ![build](https://travis-ci.org/bhou/health-monitoring-app.svg?branch=master)
 
+A demo frontend application of [collar.js](http://collarjs.com) & [collux](https//github.com/bhou/collux)  
+
 React / Redux / Collar.js / Collux
 
 Demo: [https://bhou.github.io/health-monitoring-app/](https://bhou.github.io/health-monitoring-app/)
