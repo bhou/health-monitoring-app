@@ -50,7 +50,7 @@ npm run test
 Q: Why refreshing [https://bhou.github.io/health-monitoring-app/login](https://bhou.github.io/health-monitoring-app/login) returns 404?
 
 A: Collux use browser history to support client side routing. [https://bhou.github.io/health-monitoring-app](https://bhou.github.io/health-monitoring-app) is hosted 
-on Github Pages, which does not support Routers that use HTML5 `pushState`. You need always acces  See `create-react-app`'s official doc:
+on Github Pages, which does not support Routers that use HTML5 `pushState`. See `create-react-app`'s official doc:
 
 > GitHub Pages doesn’t support routers that use the HTML5 pushState history API under the hood (for example, React Router using browserHistory). This is because when there is a fresh page load for a url like http://user.github.io/todomvc/todos/42, where /todos/42 is a frontend route, the GitHub Pages server returns 404 because it knows nothing of /todos/42. 
 
