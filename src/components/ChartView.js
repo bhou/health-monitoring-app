@@ -8,6 +8,8 @@ import { LineChart, Line, XAxis, YAxis, AreaChart, Area,
 
 import {convertCtoF, convertFtoC} from '../utils/UnitConvertor';
 
+import config from '../config';
+
 import RENDER from '../actions/RENDER';
 import ON_LOGOUT from '../actions/ON_LOGOUT';
 
@@ -78,7 +80,7 @@ class ChartView extends React.Component {
         <div className="view-body chart-view-body">
           <div className="general-info">
             <PatientInfo info={this.state.selectedPatient}/>
-            <button className="press to-table-btn"><img src="./images/presentation-1.png"
+            <button className="press to-table-btn"><img src={config.rootPath + "/images/presentation-1.png"}
               onClick={this.onBackToTableView.bind(this)}/></button>
           </div>
 

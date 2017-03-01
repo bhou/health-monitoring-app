@@ -7,6 +7,8 @@ import './DateTimeCtrl.css';
 
 import moment from 'moment';
 
+import config from '../config';
+
 import DataTable from './DataTable';
 import PatientList from './PatientList';
 import PatientInfo from './PatientInfo';
@@ -148,7 +150,7 @@ class DataTableView extends React.Component {
                   <button className="press" onClick={this.onSearch.bind(this)}>Search</button>
                 </div>
                 <button className="press chart-btn"
-                        onClick={this.onSwitchToChartView.bind(this)}><img src="/images/presentation.png"/></button>
+                        onClick={this.onSwitchToChartView.bind(this)}><img src={ config.rootPath + "/images/presentation.png"}/></button>
                 <div className="table-page-zone">
                   <button className={this.state.page <= 0 ? 'press prev-page disabled' : 'press prev-page'} disabled={this.state.page <= 0}
                           onClick={this.onSearchPrev.bind(this)}>&lsaquo;</button>

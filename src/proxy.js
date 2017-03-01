@@ -1,11 +1,13 @@
 /* proxy wrapper for server side api */
+
+import config from './config';
 const data = {
   patients: [
     {
       id: '1235674889',
       name: 'John Smith',
       gender: 'male',
-      photo: '/images/man.png',
+      photo: config.rootPath + '/images/man.png',
       age: 36,
       blood_type: "B+",
       data: []
@@ -14,7 +16,7 @@ const data = {
       id: '1235674890',
       name: 'Anne',
       gender: 'female',
-      photo: '/images/girl.png',
+      photo: config.rootPath + '/images/girl.png',
       age: 27,
       blood_type: "B+",
       data: []
@@ -23,7 +25,7 @@ const data = {
       id: '1235674891',
       name: 'Mike',
       gender: 'male',
-      photo: '/images/boy.png',
+      photo: config.rootPath + '/images/boy.png',
       age: 19,
       blood_type: "B-",
       data: []

@@ -8,6 +8,7 @@ import ChartPage from './pages/Chart';
 
 import './index.css';
 
+import config from './config';
 import backendProxy from './proxy';
 
 
@@ -233,6 +234,6 @@ ChartPage('/chart', app);
 
 // setup default route
 app.setDefaultRoute('/login');
-app.setRootPath('/health-monitoring-app');
+app.setRootPath(config.rootPath);
 // run the application
 app.run();

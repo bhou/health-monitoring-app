@@ -1,7 +1,7 @@
 {
   "name": "health-monitoring-app",
   "version": "0.1.0",
-  "homepage": "https://bhou.github.io/health-monitoring-app",
+  "homepage": ".",
   "private": true,
   "devDependencies": {
     "collar.js-dev-webclient": "^1.0.3",

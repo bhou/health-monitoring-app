@@ -3,6 +3,8 @@ import {Cell} from 'fixed-data-table';
 
 import './ActionCell.css';
 
+import config from '../../config';
+
 import ON_EDIT_TABLE_ROW from '../../actions/ON_EDIT_TABLE_ROW';
 import ON_DELETE_TABLE_ROW from '../../actions/ON_DELETE_TABLE_ROW';
 import ON_CANCEL_EDIT_TABLE_ROW from '../../actions/ON_CANCEL_EDIT_TABLE_ROW';
@@ -38,9 +40,9 @@ class ActionCell extends React.Component {
     if (editing === true) {
       return (
         <Cell {...props}>
-          <img className="tabe-edit-btn" src="/images/success.png"
+          <img className="tabe-edit-btn" src={config.rootPath + "/images/success.png"}
                onClick={this.onAcceptEdit.bind(this)}/>
-          <img className="tabe-edit-btn" src="/images/error.png"
+          <img className="tabe-edit-btn" src={config.rootPath + "/images/error.png"}
                onClick={this.onCancelEdit.bind(this)}/>
         </Cell>
       );
@@ -48,8 +50,8 @@ class ActionCell extends React.Component {
 
     return (
       <Cell {...props}>
-        <img className="tabe-edit-btn" onClick={this.onEdit.bind(this)} src="/images/edit.png"/>
-        <img className="tabe-edit-btn" onClick={this.onDelete.bind(this)} src="/images/garbage.png"/>
+        <img className="tabe-edit-btn" onClick={this.onEdit.bind(this)} src={config.rootPath + "/images/edit.png"}/>
+        <img className="tabe-edit-btn" onClick={this.onDelete.bind(this)} src={config.rootPath + "/images/garbage.png"}/>
       </Cell>
     );
   }

@@ -1,6 +1,8 @@
 import React from 'react';
 import './LoginForm.css';
 
+import config from '../config';
+
 class LoginForm extends React.Component {
   constructor(props) {
     super(props);
@@ -33,7 +35,7 @@ class LoginForm extends React.Component {
           <h4 className="logo">Health Monitoring Console</h4>
         </div>
         <div className="login-view-content">
-          <img src="/images/doctor.png"/>
+          <img src={config.rootPath + '/images/doctor.png'}/>
           <div className="login-form">
             <h4>Please sign in</h4>
             <div className="login-form-field">
