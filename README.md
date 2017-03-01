@@ -1,5 +1,4 @@
 # health-monitoring-app
-----
 
 ![build](https://travis-ci.org/bhou/health-monitoring-app.svg?branch=master)
 
