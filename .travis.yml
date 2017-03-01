@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "7"
+  - "node"
+
+install:
+  - npm install
+
+script: "npm run test"
+
+notifications:
+  email:
+    recipients:
+      - daily.bhou@gmail.com
+    on_success: change
+    on_failure: always
