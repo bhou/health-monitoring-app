@@ -4,6 +4,8 @@
 
 React / Redux / Collar.js / Collux
 
+Demo: [https://bhou.github.io/health-monitoring-app/](https://bhou.github.io/health-monitoring-app/)
+
 ## Understand the architecture and data flow:
 
 1.install collar dev server
