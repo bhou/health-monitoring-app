@@ -233,6 +233,6 @@ ChartPage('/chart', app);
 
 // setup default route
 app.setDefaultRoute('/login');
-
+app.setRootPath('/health-monitoring-app');
 // run the application
 app.run();
