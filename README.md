@@ -1,5 +1,7 @@
 # health-monitoring-app
 
+React / Redux / Collar.js / Collux
+
 ## Understand the architecture and data flow:
 
 1.install collar dev server
