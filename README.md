@@ -8,6 +8,8 @@ Demo: [https://bhou.github.io/health-monitoring-app/](https://bhou.github.io/hea
 
 ## Understand the architecture and data flow:
 
+![multiple-routes-app-arch.jpg](./docs/multiple-routes-app-arch.jpg)
+
 1.install collar dev server
 
 ```text
