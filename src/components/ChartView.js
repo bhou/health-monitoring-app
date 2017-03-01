@@ -78,7 +78,7 @@ class ChartView extends React.Component {
         <div className="view-body chart-view-body">
           <div className="general-info">
             <PatientInfo info={this.state.selectedPatient}/>
-            <button className="press to-table-btn"><img src="/images/presentation-1.png"
+            <button className="press to-table-btn"><img src="./images/presentation-1.png"
               onClick={this.onBackToTableView.bind(this)}/></button>
           </div>
 
